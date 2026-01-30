@@ -47,6 +47,9 @@ $(call inherit-product, frameworks/native/build/tablet-10in-xhdpi-2048-dalvik-he
 
 include device/nvidia/foster/vendor/foster-vendor.mk
 
+# Boot Splash
+include device/nvidia/foster/splash/Android.mk
+
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     device/nvidia/foster/overlay

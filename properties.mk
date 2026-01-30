@@ -18,3 +18,9 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # USB convertible port
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.convertible.usb.mode=host
+
+# Project Aegis
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.aegis.version=1.0 \
+    ro.aegis.device=shield_tv \
+    ro.aegis.brand=Aegis

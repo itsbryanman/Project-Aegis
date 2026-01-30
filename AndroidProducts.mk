@@ -15,5 +15,6 @@
 #
 
 PRODUCT_MAKEFILES := \
+    $(LOCAL_DIR)/aegis_foster.mk \
     $(LOCAL_DIR)/full_foster.mk \
     $(LOCAL_DIR)/lineage_foster.mk
